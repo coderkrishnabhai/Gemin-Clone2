@@ -1,0 +1,153 @@
+.sidebar {
+  min-height: 100vh;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1e1f20;
+  /* width: 36vh; */
+  display: flex;
+  color: #fff;
+}
+
+.menu {
+  display: block;
+  margin-left: 3vh;
+  margin-top: 3vh;
+  cursor: pointer;
+  font-size: 30px;
+
+}
+.menu-icon:hover{
+    color: #000;
+    background-color: #fff;
+    
+    
+    
+}
+
+.new-chat {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid #fff; */
+  padding: 10px;
+  margin-left: 3vh;
+  margin-top: 1vh;
+  margin-right: 2vh;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #282a2c;
+  flex-wrap: wrap;
+  
+  
+}
+.new-chat:hover{
+    background-color: #fff;
+    color: #000;
+}
+.plus-icon {
+  font-size: 20px;
+  margin-right: 6px;
+}
+.new-chat-text {
+  font-size: 20px;
+}
+.bottom {
+  margin-top: auto;
+
+  padding: 10px;
+}
+
+.help-div {
+  display: flex;
+  margin-left: 3vh;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 8px;
+}
+.help-div:hover{
+    background-color:#fff ;
+    color:#000;
+}
+.help-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.help-text {
+  font-size: 20px;
+}
+
+.activity-div {
+  display: flex;
+  margin-left:3vh;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 1vh;
+  padding: 5px;
+  border-radius: 8px;
+}
+.activity-div:hover{
+    background-color:#fff ;
+    color: #000;
+}
+.activity-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.activity-text {
+  font-size: 20px;
+}
+.setting-div {
+  display: flex;
+  margin-left: 3vh;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 1vh;
+  padding: 5px;
+  border-radius: 8px;
+  margin-bottom: 3vh;
+}
+.setting-div:hover{
+    background-color: #fff;
+    color: #000;
+}
+.setting-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.setting-text {
+  font-size: 20px;
+}
+.recent {
+  margin-top: 5vh;
+  margin-left: 3vh;
+}
+.recent-text {
+  font-size: 25px;
+}
+.recent-div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 2vh;
+  padding: 4px;
+  border-radius: 8px;
+  margin-right: 3vh;
+
+}
+.recent-div:hover{
+    background-color: #282a2c;
+}
+.recent-icon{
+    font-size: 15px;
+    margin-right: 8px;
+}
+.recent-text1{
+    font-size: 20px;
+}
+
+@media (max-width:600px){
+  .sidebar{
+    display: none;
+  }
+}
